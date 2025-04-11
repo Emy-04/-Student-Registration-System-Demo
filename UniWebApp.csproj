@@ -1,0 +1,47 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\js\bootstrap.min.js" />
+    <Content Remove="wwwroot\js\jquery.js" />
+    <Content Remove="wwwroot\js\jquery.min.js" />
+    <Content Remove="wwwroot\js\jquery.min.map" />
+    <Content Remove="wwwroot\js\jquery.slim.js" />
+    <Content Remove="wwwroot\js\jquery.slim.min.js" />
+    <Content Remove="wwwroot\js\jquery.slim.min.map" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="wwwroot\css\BootswatchStyle.css" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\js\bootstrap.min.js" />
+    <None Include="wwwroot\js\jquery.js" />
+    <None Include="wwwroot\js\jquery.min.js" />
+    <None Include="wwwroot\js\jquery.min.map" />
+    <None Include="wwwroot\js\jquery.slim.js" />
+    <None Include="wwwroot\js\jquery.slim.min.js" />
+    <None Include="wwwroot\js\jquery.slim.min.map" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.8">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\videos\" />
+  </ItemGroup>
+
+</Project>

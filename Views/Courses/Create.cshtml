@@ -1,0 +1,113 @@
+﻿@model UniWebApp.Models.Course
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<hr />
+<div class="container">
+    <form asp-action="Create">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+        <div class="row">
+            <!-- Course Code and Name in one row -->
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label asp-for="CrsCode" class="control-label"></label>
+                    <input asp-for="CrsCode" class="form-control" placeholder="ex: css1234" />
+                    <span asp-validation-for="CrsCode" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label asp-for="CrsName" class="control-label"></label>
+                    <input asp-for="CrsName" class="form-control" placeholder="Course Name" />
+                    <span asp-validation-for="CrsName" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- Credit Hours and Year in the same row -->
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label asp-for="CreditHours" class="control-label"></label>
+                    <input asp-for="CreditHours" class="form-control" placeholder="No of hours per Week for the course" />
+                    <span asp-validation-for="CreditHours" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label asp-for="year" class="control-label"></label>
+                    <input asp-for="year" class="form-control" placeholder="ex: 2020" />
+                    <span asp-validation-for="year" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- Grade, TermWork, and ExamWork in the same row -->
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label asp-for="Grade" class="control-label"></label>
+                    <input asp-for="Grade" class="form-control" placeholder="Enter your Grade in this course" />
+                    <span asp-validation-for="Grade" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label asp-for="TermWork" class="control-label"></label>
+                    <input asp-for="TermWork" class="form-control" placeholder="The grade out of 40" />
+                    <span asp-validation-for="TermWork" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label asp-for="ExamWork" class="control-label"></label>
+                    <input asp-for="ExamWork" class="form-control" placeholder="The final exam grade" />
+                    <span asp-validation-for="ExamWork" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- Level and Semester in the same row -->
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label asp-for="Level" class="control-label"></label>
+                    <input asp-for="Level" class="form-control" placeholder="ex: First" />
+                    <span asp-validation-for="Level" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label asp-for="Semester" class="control-label"></label>
+                    <input asp-for="Semester" class="form-control" placeholder="ex: First" />
+                    <span asp-validation-for="Semester" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- Department Id in a separate row -->
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label asp-for="DepartmentId" class="control-label">Department Name</label>
+                    <select asp-for="DepartmentId" class="form-control" asp-items="ViewBag.DepartmentId">
+                        <option value="">Select Department</option>
+                    </select>
+                    <span asp-validation-for="DepartmentId" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+
+        <br />
+        <div class="form-group">
+            <input type="submit" value="Create" class="btn btn-primary" />
+        </div>
+    </form>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>

@@ -1,0 +1,140 @@
+﻿@model UniWebApp.Models.User
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<hr />
+<div class="container">
+    <form asp-action="Create">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+        <div class="row">
+            <!-- Name and University ID in one row -->
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label asp-for="UniversityId" class="control-label"></label>
+                    <input asp-for="UniversityId" class="form-control" placeholder="UniId" />
+                    <span asp-validation-for="UniversityId" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label asp-for="Name" class="control-label"></label>
+                    <input asp-for="Name" class="form-control" placeholder="UserName" />
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- Birthdate and Gender in one row -->
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label asp-for="DateOfBirth" class="control-label"></label>
+                    <input asp-for="DateOfBirth" class="form-control" placeholder="Your Birth Date" />
+                    <span asp-validation-for="DateOfBirth" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label asp-for="Gender"></label>
+                    <div>
+                        <input type="radio" asp-for="Gender" value="Male" /> Male
+                        <input type="radio" asp-for="Gender" value="Female" /> Female
+                    </div>
+                    <span asp-validation-for="Gender" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- GPA, Department Id, and Level in one row -->
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label asp-for="GPA" class="control-label"></label>
+                    <input asp-for="GPA" class="form-control" placeholder="GPA range [0.0-4.0]" />
+                    <span asp-validation-for="GPA" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label asp-for="DepartmentId" class="control-label">Department Name</label>
+                    <select asp-for="DepartmentId" class="form-control" asp-items="ViewBag.DepartmentId">
+                        <option value="">Select Department</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label asp-for="Level" class="control-label"></label>
+                    <input asp-for="Level" class="form-control" placeholder="Your Level in Letters" />
+                    <span asp-validation-for="Level" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- Email in a row -->
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label asp-for="Email" class="control-label"></label>
+                    <input asp-for="Email" class="form-control" placeholder="UserEmail" />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- Phone number, Address, and Entry Year in one row -->
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label asp-for="PhoneNumber" class="control-label"></label>
+                    <input asp-for="PhoneNumber" class="form-control" placeholder="Your phone no. consists of 11 digits" />
+                    <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label asp-for="Address" class="control-label"></label>
+                    <input asp-for="Address" class="form-control" />
+                    <span asp-validation-for="Address" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label asp-for="EntryYear" class="control-label"></label>
+                    <input asp-for="EntryYear" class="form-control" placeholder="The year you entered college" />
+                    <span asp-validation-for="EntryYear" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- First and Second Language in one row -->
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label asp-for="FirstLanguage" class="control-label"></label>
+                    <input asp-for="FirstLanguage" class="form-control" />
+                    <span asp-validation-for="FirstLanguage" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label asp-for="SecondLanguage" class="control-label"></label>
+                    <input asp-for="SecondLanguage" class="form-control" />
+                    <span asp-validation-for="SecondLanguage" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+
+        <br />
+        <div class="form-group">
+            <input type="submit" value="Create" class="btn btn-primary" />
+        </div>
+    </form>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>

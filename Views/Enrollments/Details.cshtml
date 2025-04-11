@@ -1,0 +1,31 @@
+﻿@model UniWebApp.Models.Enrollment
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<style>
+    .custom-table th, .custom-table td {
+        border-color: #343a40 !important; /* Darker border color */
+    }
+</style>
+
+<div class="table-responsive">
+    <h1>Details</h1>
+    <hr />
+    <table class="table  table-hover table-border  table-striped custom-table">
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.User)</th>
+            <td>@Html.DisplayFor(model => model.User.Name)</td>
+        </tr>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.Course)</th>
+            <td>@Html.DisplayFor(model => model.Course.CrsName)</td>
+        </tr>
+    </table>
+</div>
+<br />
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

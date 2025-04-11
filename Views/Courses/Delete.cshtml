@@ -1,0 +1,63 @@
+﻿@model UniWebApp.Models.Course
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<style>
+    .custom-table th, .custom-table td {
+        border-color: #343a40 !important; /* Darker border color */
+    }
+</style>
+
+<h3>Are you sure you want to delete this?</h3>
+<div class="table-responsive">
+    <table class="table  table-hover table-border  table-striped custom-table">
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.CrsCode)</th>
+            <td>@Html.DisplayFor(model => model.CrsCode)</td>
+        </tr>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.CrsName)</th>
+            <td>@Html.DisplayFor(model => model.CrsName)</td>
+        </tr>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.CreditHours)</th>
+            <td>@Html.DisplayFor(model => model.CreditHours)</td>
+        </tr>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.year)</th>
+            <td>@Html.DisplayFor(model => model.year)</td>
+        </tr>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.Grade)</th>
+            <td>@Html.DisplayFor(model => model.Grade)</td>
+        </tr>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.TermWork)</th>
+            <td>@Html.DisplayFor(model => model.TermWork)</td>
+        </tr>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.ExamWork)</th>
+            <td>@Html.DisplayFor(model => model.ExamWork)</td>
+        </tr>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.Level)</th>
+            <td>@Html.DisplayFor(model => model.Level)</td>
+        </tr>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.Semester)</th>
+            <td>@Html.DisplayFor(model => model.Semester)</td>
+        </tr>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.Department)</th>
+            <td>@Html.DisplayFor(model => model.Department.Name)</td>
+        </tr>
+    </table>
+</div>
+<br />
+<form asp-action="Delete">
+    <input type="hidden" asp-for="CrsId" />
+    <input type="submit" value="Delete" class="btn btn-danger" /> |
+    <a asp-action="Index">Back to List</a>
+</form>

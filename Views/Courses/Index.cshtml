@@ -1,0 +1,97 @@
+﻿@model IEnumerable<UniWebApp.Models.Course>
+
+@{
+    ViewData["Title"] = "Index";
+}
+@* 
+ <h1>Index</h1> *@ 
+
+<p>
+    <a asp-controller="Courses" asp-action="Create" class="btn btn-primary">
+        <i class="bi bi-plus"></i> &nbsp; Add New Course
+    </a>
+</p>
+<table class=" table  table-hover table-border  table-striped">
+    <thead>
+        <tr>
+            <th scope="col">
+                @Html.DisplayNameFor(model => model.CrsCode)
+            </th>
+            <th scope="col">
+                @Html.DisplayNameFor(model => model.CrsName)
+            </th>
+            <th scope="col">
+                @Html.DisplayNameFor(model => model.CreditHours)
+            </th>
+            <th scope="col">
+                @Html.DisplayNameFor(model => model.year)
+            </th>
+            <th scope="col">
+                @Html.DisplayNameFor(model => model.Grade)
+            </th>
+            <th scope="col">
+                @Html.DisplayNameFor(model => model.TermWork)
+            </th>
+            <th scope="col">
+                @Html.DisplayNameFor(model => model.ExamWork)
+            </th>
+            <th scope="col">
+                @Html.DisplayNameFor(model => model.Level)
+            </th>
+           @*  <th scope="col">
+                @Html.DisplayNameFor(model => model.Semester)
+            </th> *@
+            <th scope="col">
+                @Html.DisplayNameFor(model => model.Department)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CrsCode)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CrsName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CreditHours)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.year)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Grade)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TermWork)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ExamWork)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Level)
+            </td>
+           @*  <td>
+                @Html.DisplayFor(modelItem => item.Semester)
+            </td> *@
+            <td>
+                @Html.DisplayFor(modelItem => item.Department.Name)
+            </td>
+            <td>
+                    <a asp-controller="Courses" asp-action="Edit" asp-route-id="@item.CrsId" class="btn btn-sm btn-success">
+                        <i class="bi bi-pencil"></i>  
+                    </a> |
+                    <a asp-controller="Courses" asp-action="Details" asp-route-id="@item.CrsId" class="btn btn-sm btn-info">
+                        <i class="bi bi-journal-text"></i>   
+                    </a> |
+                    <a asp-controller="Courses" asp-action="Delete" asp-route-id="@item.CrsId" class="btn btn-sm btn-danger">
+                        <i class="bi bi-trash3"></i>  
+                    </a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

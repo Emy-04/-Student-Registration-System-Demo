@@ -1,0 +1,75 @@
+﻿@model UniWebApp.Models.User
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<style>
+    .custom-table th, .custom-table td {
+        border-color: #343a40 !important; /* Darker border color */
+    }
+</style>
+
+<div class="table-responsive">
+    <h1>Details</h1>
+    <hr />
+    <table class="table  table-hover table-border  table-striped custom-table">
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.UniversityId)</th>
+            <td>@Html.DisplayFor(model => model.UniversityId)</td>
+        </tr>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.Name)</th>
+            <td>@Html.DisplayFor(model => model.Name)</td>
+        </tr>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.DateOfBirth)</th>
+            <td>@Html.DisplayFor(model => model.DateOfBirth)</td>
+        </tr>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.Gender)</th>
+            <td>@Html.DisplayFor(model => model.Gender)</td>
+        </tr>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.GPA)</th>
+            <td>@Html.DisplayFor(model => model.GPA)</td>
+        </tr>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.Department)</th>
+            <td>@Html.DisplayFor(model => model.Department.Name)</td>
+        </tr>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.Level)</th>
+            <td>@Html.DisplayFor(model => model.Level)</td>
+        </tr>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.Email)</th>
+            <td>@Html.DisplayFor(model => model.Email)</td>
+        </tr>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.PhoneNumber)</th>
+            <td>@Html.DisplayFor(model => model.PhoneNumber)</td>
+        </tr>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.Address)</th>
+            <td>@Html.DisplayFor(model => model.Address)</td>
+        </tr>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.EntryYear)</th>
+            <td>@Html.DisplayFor(model => model.EntryYear)</td>
+        </tr>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.FirstLanguage)</th>
+            <td>@Html.DisplayFor(model => model.FirstLanguage)</td>
+        </tr>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.SecondLanguage)</th>
+            <td>@Html.DisplayFor(model => model.SecondLanguage)</td>
+        </tr>
+    </table>
+</div>
+<br />
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

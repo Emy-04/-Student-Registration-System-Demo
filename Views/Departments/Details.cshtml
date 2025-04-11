@@ -1,0 +1,27 @@
+﻿@model UniWebApp.Models.Department
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<style>
+    .custom-table th, .custom-table td {
+        border-color: #343a40 !important; /* Darker border color */
+    }
+</style>
+
+<div class="table-responsive">
+    <h1>Details</h1>
+    <hr />
+    <table class="table  table-hover table-border  table-striped custom-table">
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.Name)</th>
+            <td>@Html.DisplayFor(model => model.Name)</td>
+        </tr>
+    </table>
+</div>
+<br />
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

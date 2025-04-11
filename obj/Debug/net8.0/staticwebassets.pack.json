@@ -1,0 +1,469 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\UniWebApp.bundle.scp.css",
+      "PackagePath": "staticwebassets\\UniWebApp.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\css\\BootswatchStyle.css",
+      "PackagePath": "staticwebassets\\css\\BootswatchStyle.css"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\css\\flex-slider.css",
+      "PackagePath": "staticwebassets\\css\\flex-slider.css"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\css\\fontawesome.css",
+      "PackagePath": "staticwebassets\\css\\fontawesome.css"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\css\\lightbox.css",
+      "PackagePath": "staticwebassets\\css\\lightbox.css"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\css\\owl.css",
+      "PackagePath": "staticwebassets\\css\\owl.css"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\css\\templatemo-edu-meeting.css",
+      "PackagePath": "staticwebassets\\css\\templatemo-edu-meeting.css"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\images\\OIP (1).jpeg",
+      "PackagePath": "staticwebassets\\images\\OIP (1).jpeg"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\images\\OIP (2).jpeg",
+      "PackagePath": "staticwebassets\\images\\OIP (2).jpeg"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\images\\OIP.jpeg",
+      "PackagePath": "staticwebassets\\images\\OIP.jpeg"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\images\\apply-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\apply-bg.jpg"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\images\\backgroundCourse.jpeg",
+      "PackagePath": "staticwebassets\\images\\backgroundCourse.jpeg"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\images\\backgroundDepartment.jpg",
+      "PackagePath": "staticwebassets\\images\\backgroundDepartment.jpg"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\images\\backgroundEnrollment.jpeg",
+      "PackagePath": "staticwebassets\\images\\backgroundEnrollment.jpeg"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\images\\backgroundUser.jpeg",
+      "PackagePath": "staticwebassets\\images\\backgroundUser.jpeg"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\images\\close.png",
+      "PackagePath": "staticwebassets\\images\\close.png"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\images\\course-01.jpg",
+      "PackagePath": "staticwebassets\\images\\course-01.jpg"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\images\\course-02.jpg",
+      "PackagePath": "staticwebassets\\images\\course-02.jpg"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\images\\course-03.jpg",
+      "PackagePath": "staticwebassets\\images\\course-03.jpg"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\images\\course-04.jpg",
+      "PackagePath": "staticwebassets\\images\\course-04.jpg"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\images\\course-video.mp4",
+      "PackagePath": "staticwebassets\\images\\course-video.mp4"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\images\\download (1).jpeg",
+      "PackagePath": "staticwebassets\\images\\download (1).jpeg"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\images\\download.jpeg",
+      "PackagePath": "staticwebassets\\images\\download.jpeg"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\images\\facts-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\facts-bg.jpg"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\images\\heading-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\heading-bg.jpg"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\images\\loading.gif",
+      "PackagePath": "staticwebassets\\images\\loading.gif"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\images\\meeting-01.jpg",
+      "PackagePath": "staticwebassets\\images\\meeting-01.jpg"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\images\\meeting-03.jpg",
+      "PackagePath": "staticwebassets\\images\\meeting-03.jpg"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\images\\meeting-04.jpg",
+      "PackagePath": "staticwebassets\\images\\meeting-04.jpg"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\images\\meetings-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\meetings-bg.jpg"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\images\\meetings-page-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\meetings-page-bg.jpg"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\images\\next.png",
+      "PackagePath": "staticwebassets\\images\\next.png"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\images\\play-icon.png",
+      "PackagePath": "staticwebassets\\images\\play-icon.png"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\images\\prev.png",
+      "PackagePath": "staticwebassets\\images\\prev.png"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\images\\service-icon-01.png",
+      "PackagePath": "staticwebassets\\images\\service-icon-01.png"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\images\\service-icon-02.png",
+      "PackagePath": "staticwebassets\\images\\service-icon-02.png"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\images\\service-icon-03.png",
+      "PackagePath": "staticwebassets\\images\\service-icon-03.png"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\images\\service-item-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\service-item-bg.jpg"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\images\\single-meeting.jpg",
+      "PackagePath": "staticwebassets\\images\\single-meeting.jpg"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\images\\th.jpeg",
+      "PackagePath": "staticwebassets\\images\\th.jpeg"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\images\\video-item-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\video-item-bg.jpg"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\js\\custom.js",
+      "PackagePath": "staticwebassets\\js\\custom.js"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\js\\isotope.js",
+      "PackagePath": "staticwebassets\\js\\isotope.js"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\js\\isotope.min.js",
+      "PackagePath": "staticwebassets\\js\\isotope.min.js"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\js\\lightbox.js",
+      "PackagePath": "staticwebassets\\js\\lightbox.js"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\js\\owl-carousel.js",
+      "PackagePath": "staticwebassets\\js\\owl-carousel.js"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\js\\slick-slider.js",
+      "PackagePath": "staticwebassets\\js\\slick-slider.js"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\js\\tabs.js",
+      "PackagePath": "staticwebassets\\js\\tabs.js"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\js\\theme.js",
+      "PackagePath": "staticwebassets\\js\\theme.js"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\js\\video.js",
+      "PackagePath": "staticwebassets\\js\\video.js"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\Emy\\New folder\\Internship MCV\\Project MVC\\UniWebApp\\UniWebApp\\wwwroot\\videos\\background.mp4",
+      "PackagePath": "staticwebassets\\videos\\background.mp4"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.UniWebApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.UniWebApp.props",
+      "PackagePath": "build\\UniWebApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.UniWebApp.props",
+      "PackagePath": "buildMultiTargeting\\UniWebApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.UniWebApp.props",
+      "PackagePath": "buildTransitive\\UniWebApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

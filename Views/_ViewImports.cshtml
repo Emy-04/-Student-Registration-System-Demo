@@ -1,0 +1,37 @@
+﻿@using UniWebApp
+@using UniWebApp.Models
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+
+@functions {
+    public string GetBackgroundClass()
+    {
+        var controller = ViewContext.RouteData.Values["controller"].ToString();
+        var action = ViewContext.RouteData.Values["action"].ToString();
+
+        if (controller == "Home" && (action == "Index" || action == "Privacy"))
+        {
+            return "video-background";
+        }
+        else if (controller == "User")
+        {
+            return "user-background";
+        }
+        else if (controller == "Courses")
+        {
+            return "courses-background";
+        }
+        else if (controller == "Departments")
+        {
+            return "departments-background";
+        }
+        else if (controller == "Enrollments")
+        {
+            return "enrollments-background";
+        }
+        else
+        {
+            return string.Empty;
+        }
+    }
+}

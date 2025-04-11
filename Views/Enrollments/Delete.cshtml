@@ -1,0 +1,31 @@
+﻿@model UniWebApp.Models.Enrollment
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<style>
+    .custom-table th, .custom-table td {
+        border-color: #343a40 !important; /* Darker border color */
+    }
+</style>
+
+<h3>Are you sure you want to delete this?</h3>
+<div class="table-responsive">
+    <table class="table  table-hover table-border  table-striped custom-table">
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.User)</th>
+            <td>@Html.DisplayFor(model => model.User.Name)</td>
+        </tr>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.Course)</th>
+            <td>@Html.DisplayFor(model => model.Course.CrsName)</td>
+        </tr>
+    </table>
+</div>
+<br />
+<form asp-action="Delete">
+    <input type="hidden" asp-for="Id" />
+    <input type="submit" value="Delete" class="btn btn-danger" /> |
+    <a asp-action="Index">Back to List</a>
+</form>
